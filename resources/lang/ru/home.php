@@ -1,0 +1,30 @@
+<?php
+
+return [
+
+    'sidebar_title' => 'Черный список',
+    'btn_search' => 'Найти',
+    'add_info' => 'Добавить информацию',
+    'search' => 'Поиск',
+    'copy' => 'Cайт не несет ответственности за содержание информации, которую размещают посетители © 2019 liube.info',
+    'comment_btn' => 'Комментарии',
+    'add_btn' => 'Добавить комментарий',
+    'post_btn' => 'Вся информация',
+    'subscribe_btn' => 'Подписаться',
+    'add_review' => 'Добавить комментарий',
+    'not_found' => 'Не найдено',
+    'subscribe_title' => 'Пожалуйста, подпишитесь, чтобы получать обновления',
+    'subscribe_sub_title' => 'Введите Email, чтобы получать последние обновления',
+    'email_text' => 'Введите Ваш Email',
+    'subscribe_btn_form' => 'Подписаться',
+    'subscribe_thanks' => 'Благодарим за подписку!',
+    'complain' => 'Пожаловаться',
+    'feedback_title' => 'Связаться с нами',
+    'feedback_name' => 'Имя',
+    'feedback_phone' => 'Телефон',
+    'feedback_email' => 'Email',
+    'feedback_subject' => 'Тема',
+    'feedback_message' => 'Сообщение',
+    'feedback_send' => 'Отправить',
+    'add_more_info' => 'Дополнить информацию',
+];

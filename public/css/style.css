@@ -1,0 +1,294 @@
+.icon-menu{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.breadcrumb-dot .breadcrumb-item+.breadcrumb-item::before {
+  content: ">";
+  font-size: 1.3rem;
+  line-height:18px;
+}
+
+
+.colum_menu li{
+  width:100%;
+  margin:0;
+  position:relative;
+  overflow:hidden;
+}
+
+.colum_menu a{color:#fff;text-decoration:none;display:block;max-height:60px;line-height:35px;}
+
+.colum_menu i{
+  color:#fff;
+  line-height:60px;font-size:22px;
+
+}
+
+.colum_menu div{
+  min-width: 60px;
+}
+
+.colum_menu .menu li a{
+  font-size:16px;
+  font-weight:bold;
+
+}
+
+.nav-lnk:hover{
+  background-color: #3a3f4a;
+}
+
+.bg-color{
+  background-color: #e9ecef;
+}
+.users_text{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.bg-gray{
+  background-color: #f3f6f9;
+}
+
+.roboto16{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+.roboto14{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+.roboto12 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+}
+
+.roboto16lt{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.roboto22bl{
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.roboto16bl{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.form-color{
+  color: rgb(96, 104, 116);
+}
+
+.input_fields{
+  color: rgb(96, 104, 116);
+  padding: 5px;
+  border: none;
+  border: 1px solid gainsboro;
+}
+/*/////////////////////////////////////*/
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+td a {
+  width: 140px;
+  word-break: break-all;
+}
+
+.nav-link:hover {
+  transition: all 0.4s;
+}
+
+.nav-link-collapse:after {
+  float: right;
+  content: '\f067';
+  font-family: 'FontAwesome';
+}
+
+.nav-link-show:after {
+  float: right;
+  content: '\f068';
+  font-family: 'FontAwesome';
+}
+
+.nav-item ul.nav-second-level {
+  padding-left: 0;
+}
+
+.nav-item ul.nav-second-level > .nav-item {
+  padding-left: 20px;
+}
+
+.table thead th {
+  vertical-align: middle;
+}
+
+.table td, .table th {
+  vertical-align: middle;
+}
+
+th a {
+  color: #212529;
+}
+
+.sort {
+  position: relative;
+}
+
+/*.sort:after {*/
+/*  content: '\f0dc';*/
+/*  font-family: "FontAwesome";*/
+/*  position: absolute;*/
+/*  top: -40%;*/
+/*  right: -15px;*/
+/*}*/
+
+.custom-select {
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-right: 8px !important;
+  margin-left: 8px !important;
+}
+
+.custom-input {
+  border-radius: 5px;
+  border: 1px solid rgba(0,0,0,0.1);
+  padding: 5px;
+}
+
+.custom-input:focus {
+  outline: none;
+}
+
+.main-container {
+  margin-left: 65px;
+  min-height: 100vh;
+}
+
+@media (min-width: 992px) {
+  .sidenav {
+    position:fixed;
+      width: 60px;
+    left:0;
+    top:0;
+    height:100%;
+    z-index:99;
+    background:#2B303B;
+    overflow-x:hidden;
+    overflow-y:auto;
+    -webkit-transition: 0.2s ease;
+    transition: 0.2s ease;
+  }
+
+  .navigationClass{
+    width: 300px !important;
+  }
+
+  #expand{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: start !important;
+  }
+
+  #expand a{
+    padding: 0 !important;
+  }
+
+  #expand i{
+    display: inline-block !important;
+  }
+
+  .navbar-expand-lg .sidenav {
+    flex-direction: column;
+  }
+
+}
+#expand{
+  justify-content: start;
+}
+
+#expand:hover{
+  cursor: pointer;
+}
+
+#expand i{
+  display: none;
+}
+#expand{
+  display: flex;
+  justify-content: center;
+}
+
+#expand a{
+  padding: 10px 0;
+}
+
+
+
+@media screen and (max-width: 992px) {
+  .main-container {
+    margin-left: 0 !important;
+  }
+}
+
+.card-image-container{
+  background-position: center;
+  background-size: cover;
+  min-width: 45%;
+  height: 400px;
+}
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.tabcontent {
+  animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}

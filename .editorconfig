@@ -1,0 +1,19 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+indent_style = space
+<<<<<<< HEAD
+indent_size = 2
+=======
+indent_size = 4
+>>>>>>> 36871802a72525824c93c982af1db68f7006882a
+trim_trailing_whitespace = true
+
+[*.md]
+trim_trailing_whitespace = false
+
+[*.{yml,yaml}]
+indent_size = 2

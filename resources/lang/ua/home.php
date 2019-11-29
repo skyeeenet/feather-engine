@@ -1,0 +1,30 @@
+<?php
+
+return [
+
+    'sidebar_title' => 'Чорний список',
+    'btn_search' => 'Знайти',
+    'add_info' => 'Додати iнформацiю',
+    'search' => 'Пошук',
+    'copy' => 'Сайт не несе відповідальності за зміст інформації, що розміщають відвідувачі  © 2019 liube.info',
+    'comment_btn' => 'Коментарії',
+    'add_btn' => 'Додати коментарій',
+    'post_btn' => 'Вся інформація',
+    'subscribe_btn' => 'Підписатись',
+    'add_review' => 'Додати коментар',
+    'not_found' => 'Не знайдено',
+    'subscribe_title' => 'Будь ласка, підпишіться, щоб отримувати оновлення',
+    'subscribe_sub_title' => 'Введіть Email, щоб отримувати останні оновлення',
+    'email_text' => 'Введіть Ваш Email',
+    'subscribe_btn_form' => 'Підписатися',
+    'subscribe_thanks' => 'Дякуємо за підписку!',
+    'complain' => 'Поскаржитись',
+    'feedback_title' => 'Зв\'язатися з нами',
+    'feedback_name' => 'ім\'я',
+    'feedback_phone' => 'Телефон',
+    'feedback_email' => 'Email',
+    'feedback_subject' => 'Тема',
+    'feedback_message' => 'Повідомлення',
+    'feedback_send' => 'Надіслати',
+    'add_more_info' => 'Доповнити інформацію',
+];
